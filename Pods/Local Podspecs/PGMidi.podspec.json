@@ -1,0 +1,24 @@
+{
+  "name": "PGMidi",
+  "version": "0.0.5",
+  "summary": "CoreMidi made simple on iOS.",
+  "description": "                   PGMidi is a simple library for access to MIDI devices presented via the CoreMidi framework on iOS. It comes with an example project to illustrate how to use the library in your own iOS application.\n\n                   It has become the de-facto iOS API for simple MIDI access, incorporated into many of the popular MIDI applications for iOS. Thanks to everyone who has used it and provided feedback.\n",
+  "homepage": "https://github.com/petegoodliffe/PGMidi",
+  "license": "                   Feel free to incorporate this code in your own applications.\n\n                   I'd appreciate hearing from you if you do so. It's nice to know that I've been helpful. Attribution is welcomed, but not required.\n\n                   Copyright (c) 2010-2015 Pete Goodliffe. All rights reserved.\n",
+  "authors": {
+    "Pete Goodliffe": "pete@goodliffe.net"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "git": "https://github.com/petegoodliffe/PGMidi.git",
+    "commit": "9b62de60a147cd524e9faa653db3123ccc129084"
+  },
+  "source_files": [
+    "Sources/PGMidi",
+    "Sources/PGMidi/*.{h,mm}"
+  ],
+  "frameworks": "CoreMidi",
+  "libraries": "c++"
+}

@@ -1,0 +1,19 @@
+PODS:
+  - PGMidi (0.0.5)
+
+DEPENDENCIES:
+  - PGMidi (from `https://github.com/petegoodliffe/PGMidi.git`)
+
+EXTERNAL SOURCES:
+  PGMidi:
+    :git: https://github.com/petegoodliffe/PGMidi.git
+
+CHECKOUT OPTIONS:
+  PGMidi:
+    :commit: 72cefa4ac7633b76658dcfb71b1a05a754becbf2
+    :git: https://github.com/petegoodliffe/PGMidi.git
+
+SPEC CHECKSUMS:
+  PGMidi: 1ec556ba394940bd0f9d847b14f68b4af0f12f56
+
+COCOAPODS: 0.37.2

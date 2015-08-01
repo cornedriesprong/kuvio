@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0759DD008A5D7CCD7D4E669D /* PGMidiAllSources.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2245423DBB7E850CBC855EDC /* PGMidiAllSources.mm */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1038517F7021C33A8ABC0D4B /* PGMidiAllSources.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A2DDC682CCEE7F900BB1030 /* PGMidiAllSources.h */; };
+		456F8BBF8DB43ECDD2CCCFE9 /* Pods-Kuvio-PGMidi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 698AC6C92A08A9936874282D /* Pods-Kuvio-PGMidi-dummy.m */; };
+		459666B6AFFFE0949CA298F0 /* PGMidiFind.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B259D45D98370EC1284E070 /* PGMidiFind.h */; };
+		577129FBF8AFA3E77D68B47C /* PGMidi.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B0829C9312CC8A66DCA757A /* PGMidi.h */; };
+		64D0E906FD4E6206C88B001E /* PGArc.h in Headers */ = {isa = PBXBuildFile; fileRef = EDEA8F9F2FD236101766F7D0 /* PGArc.h */; };
+		6824352C88A29CC69B181F40 /* iOSVersionDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = EA149B3CD27841CCCBD2A196 /* iOSVersionDetection.h */; };
+		7D00FE6D1B300B3304D036CF /* CoreMidi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8760C327B60A8F0DFAF325A /* CoreMidi.framework */; };
+		B7FD8A4E846C325AAF38E327 /* PGMidi.mm in Sources */ = {isa = PBXBuildFile; fileRef = 24F1A356D6AB9F6052D0B46D /* PGMidi.mm */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CA09CCDF4B295C0C65484E24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6037C4C4F1565E358186DFF8 /* Foundation.framework */; };
+		D4F5DD9951DD42BAE8EF895E /* Pods-Kuvio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BFF1AD6DD6A23FA94C4FA3 /* Pods-Kuvio-dummy.m */; };
+		D623C63AC64457E73AED5647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6037C4C4F1565E358186DFF8 /* Foundation.framework */; };
+		E858A056EEB97406DAB184A6 /* PGMidiFind.mm in Sources */ = {isa = PBXBuildFile; fileRef = 587FDC3DB59D493D01699161 /* PGMidiFind.mm */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BFEB4F3764506C4D3E70DB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09484F500C461E262286075C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7EF92A5C6F00928BEA8B863;
+			remoteInfo = "Pods-Kuvio-PGMidi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18B2D51AEEABBA8740E258D7 /* Pods-Kuvio-PGMidi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kuvio-PGMidi-prefix.pch"; sourceTree = "<group>"; };
+		1C3F1FA60B4480F3A8225F4C /* libPods-Kuvio-PGMidi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kuvio-PGMidi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2245423DBB7E850CBC855EDC /* PGMidiAllSources.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = PGMidiAllSources.mm; path = Sources/PGMidi/PGMidiAllSources.mm; sourceTree = "<group>"; };
+		24F1A356D6AB9F6052D0B46D /* PGMidi.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = PGMidi.mm; path = Sources/PGMidi/PGMidi.mm; sourceTree = "<group>"; };
+		2D6C2BD4540F791070D785A8 /* Pods-Kuvio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kuvio.debug.xcconfig"; sourceTree = "<group>"; };
+		346491665D66C06C004C275E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		39534E544B8ECD33D016599E /* libPods-Kuvio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kuvio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		587FDC3DB59D493D01699161 /* PGMidiFind.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = PGMidiFind.mm; path = Sources/PGMidi/PGMidiFind.mm; sourceTree = "<group>"; };
+		6037C4C4F1565E358186DFF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		698AC6C92A08A9936874282D /* Pods-Kuvio-PGMidi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kuvio-PGMidi-dummy.m"; sourceTree = "<group>"; };
+		69BFF1AD6DD6A23FA94C4FA3 /* Pods-Kuvio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kuvio-dummy.m"; sourceTree = "<group>"; };
+		6C2EB7FB48411AF4951D0C09 /* Pods-Kuvio-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kuvio-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B259D45D98370EC1284E070 /* PGMidiFind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMidiFind.h; path = Sources/PGMidi/PGMidiFind.h; sourceTree = "<group>"; };
+		8CFF31C49823056F1FE3F563 /* Pods-Kuvio-PGMidi-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kuvio-PGMidi-Private.xcconfig"; sourceTree = "<group>"; };
+		9A2DDC682CCEE7F900BB1030 /* PGMidiAllSources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMidiAllSources.h; path = Sources/PGMidi/PGMidiAllSources.h; sourceTree = "<group>"; };
+		9B0829C9312CC8A66DCA757A /* PGMidi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMidi.h; path = Sources/PGMidi/PGMidi.h; sourceTree = "<group>"; };
+		A8760C327B60A8F0DFAF325A /* CoreMidi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMidi.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreMidi.framework; sourceTree = DEVELOPER_DIR; };
+		B6D951F980171595D6062638 /* Pods-Kuvio-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kuvio-environment.h"; sourceTree = "<group>"; };
+		CB5854B5DE3CEA96EEB61D8E /* Pods-Kuvio-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kuvio-resources.sh"; sourceTree = "<group>"; };
+		D10E280F468D56516A02CAD6 /* Pods-Kuvio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kuvio.release.xcconfig"; sourceTree = "<group>"; };
+		D4DD7B1A7EBF6A15A99A0B98 /* Pods-Kuvio-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kuvio-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA149B3CD27841CCCBD2A196 /* iOSVersionDetection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iOSVersionDetection.h; path = Sources/PGMidi/iOSVersionDetection.h; sourceTree = "<group>"; };
+		EDEA8F9F2FD236101766F7D0 /* PGArc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGArc.h; path = Sources/PGMidi/PGArc.h; sourceTree = "<group>"; };
+		EE1B98C61A100B86A2ADE41F /* Pods-Kuvio-PGMidi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kuvio-PGMidi.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A58B093C119440DE9F65C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D623C63AC64457E73AED5647 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC44FB2C452D202F02ED1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D00FE6D1B300B3304D036CF /* CoreMidi.framework in Frameworks */,
+				CA09CCDF4B295C0C65484E24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CF8E7A11D5AF010826AC060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39534E544B8ECD33D016599E /* libPods-Kuvio.a */,
+				1C3F1FA60B4480F3A8225F4C /* libPods-Kuvio-PGMidi.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		439D2C1C4D660E295158A1FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F6EBBFFB4B5A88169A61B33 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		488033A8E12BA065446CAC25 /* Pods-Kuvio */ = {
+			isa = PBXGroup;
+			children = (
+				D4DD7B1A7EBF6A15A99A0B98 /* Pods-Kuvio-acknowledgements.markdown */,
+				6C2EB7FB48411AF4951D0C09 /* Pods-Kuvio-acknowledgements.plist */,
+				69BFF1AD6DD6A23FA94C4FA3 /* Pods-Kuvio-dummy.m */,
+				B6D951F980171595D6062638 /* Pods-Kuvio-environment.h */,
+				CB5854B5DE3CEA96EEB61D8E /* Pods-Kuvio-resources.sh */,
+				2D6C2BD4540F791070D785A8 /* Pods-Kuvio.debug.xcconfig */,
+				D10E280F468D56516A02CAD6 /* Pods-Kuvio.release.xcconfig */,
+			);
+			name = "Pods-Kuvio";
+			path = "Target Support Files/Pods-Kuvio";
+			sourceTree = "<group>";
+		};
+		7F6EBBFFB4B5A88169A61B33 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A8760C327B60A8F0DFAF325A /* CoreMidi.framework */,
+				6037C4C4F1565E358186DFF8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		91D95698BB1D638E170407C9 /* PGMidi */ = {
+			isa = PBXGroup;
+			children = (
+				EDEA8F9F2FD236101766F7D0 /* PGArc.h */,
+				9B0829C9312CC8A66DCA757A /* PGMidi.h */,
+				24F1A356D6AB9F6052D0B46D /* PGMidi.mm */,
+				9A2DDC682CCEE7F900BB1030 /* PGMidiAllSources.h */,
+				2245423DBB7E850CBC855EDC /* PGMidiAllSources.mm */,
+				7B259D45D98370EC1284E070 /* PGMidiFind.h */,
+				587FDC3DB59D493D01699161 /* PGMidiFind.mm */,
+				EA149B3CD27841CCCBD2A196 /* iOSVersionDetection.h */,
+				E9B16B2F14C54300A1F906F2 /* Support Files */,
+			);
+			path = PGMidi;
+			sourceTree = "<group>";
+		};
+		94D3FB16BF15E1E7F6F31CE8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				488033A8E12BA065446CAC25 /* Pods-Kuvio */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C5514483690780A6F7351FAD = {
+			isa = PBXGroup;
+			children = (
+				346491665D66C06C004C275E /* Podfile */,
+				439D2C1C4D660E295158A1FE /* Frameworks */,
+				E5326ACF2849AF30A02BA663 /* Pods */,
+				1CF8E7A11D5AF010826AC060 /* Products */,
+				94D3FB16BF15E1E7F6F31CE8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E5326ACF2849AF30A02BA663 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91D95698BB1D638E170407C9 /* PGMidi */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9B16B2F14C54300A1F906F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE1B98C61A100B86A2ADE41F /* Pods-Kuvio-PGMidi.xcconfig */,
+				8CFF31C49823056F1FE3F563 /* Pods-Kuvio-PGMidi-Private.xcconfig */,
+				698AC6C92A08A9936874282D /* Pods-Kuvio-PGMidi-dummy.m */,
+				18B2D51AEEABBA8740E258D7 /* Pods-Kuvio-PGMidi-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Kuvio-PGMidi";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		365F3667F35AD604E1F904EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D0E906FD4E6206C88B001E /* PGArc.h in Headers */,
+				577129FBF8AFA3E77D68B47C /* PGMidi.h in Headers */,
+				1038517F7021C33A8ABC0D4B /* PGMidiAllSources.h in Headers */,
+				459666B6AFFFE0949CA298F0 /* PGMidiFind.h in Headers */,
+				6824352C88A29CC69B181F40 /* iOSVersionDetection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22FF900D569360CC09D6FBDF /* Pods-Kuvio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4D48F713683F314E88D41F /* Build configuration list for PBXNativeTarget "Pods-Kuvio" */;
+			buildPhases = (
+				9760BA188592E814E94F1583 /* Sources */,
+				1A58B093C119440DE9F65C4A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05A70CB0CFFBDFDF3191BC4A /* PBXTargetDependency */,
+			);
+			name = "Pods-Kuvio";
+			productName = "Pods-Kuvio";
+			productReference = 39534E544B8ECD33D016599E /* libPods-Kuvio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E7EF92A5C6F00928BEA8B863 /* Pods-Kuvio-PGMidi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5CAF8C7674BA1766F59BA5 /* Build configuration list for PBXNativeTarget "Pods-Kuvio-PGMidi" */;
+			buildPhases = (
+				A449739518C3448A44A694CE /* Sources */,
+				7DC44FB2C452D202F02ED1E2 /* Frameworks */,
+				365F3667F35AD604E1F904EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Kuvio-PGMidi";
+			productName = "Pods-Kuvio-PGMidi";
+			productReference = 1C3F1FA60B4480F3A8225F4C /* libPods-Kuvio-PGMidi.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09484F500C461E262286075C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = F18A5D4D58EA141D2C0976B0 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5514483690780A6F7351FAD;
+			productRefGroup = 1CF8E7A11D5AF010826AC060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22FF900D569360CC09D6FBDF /* Pods-Kuvio */,
+				E7EF92A5C6F00928BEA8B863 /* Pods-Kuvio-PGMidi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9760BA188592E814E94F1583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F5DD9951DD42BAE8EF895E /* Pods-Kuvio-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A449739518C3448A44A694CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FD8A4E846C325AAF38E327 /* PGMidi.mm in Sources */,
+				0759DD008A5D7CCD7D4E669D /* PGMidiAllSources.mm in Sources */,
+				E858A056EEB97406DAB184A6 /* PGMidiFind.mm in Sources */,
+				456F8BBF8DB43ECDD2CCCFE9 /* Pods-Kuvio-PGMidi-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05A70CB0CFFBDFDF3191BC4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Kuvio-PGMidi";
+			target = E7EF92A5C6F00928BEA8B863 /* Pods-Kuvio-PGMidi */;
+			targetProxy = 8BFEB4F3764506C4D3E70DB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B08BE215C07CB2EC6CBF4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46920C25C7D475A3E74D0DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6C2BD4540F791070D785A8 /* Pods-Kuvio.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6F3A172460D3D8E7DBA9279A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFF31C49823056F1FE3F563 /* Pods-Kuvio-PGMidi-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Kuvio-PGMidi/Pods-Kuvio-PGMidi-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DF487E4BCF6E81E6A8A1D17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10E280F468D56516A02CAD6 /* Pods-Kuvio.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F3D32E1FAE49403F9E7A5CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFF31C49823056F1FE3F563 /* Pods-Kuvio-PGMidi-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Kuvio-PGMidi/Pods-Kuvio-PGMidi-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FFB698FDF54D55BDE51810C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A5CAF8C7674BA1766F59BA5 /* Build configuration list for PBXNativeTarget "Pods-Kuvio-PGMidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F3A172460D3D8E7DBA9279A /* Debug */,
+				F3D32E1FAE49403F9E7A5CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4D48F713683F314E88D41F /* Build configuration list for PBXNativeTarget "Pods-Kuvio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46920C25C7D475A3E74D0DFB /* Debug */,
+				DF487E4BCF6E81E6A8A1D17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18A5D4D58EA141D2C0976B0 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB698FDF54D55BDE51810C0 /* Debug */,
+				2B08BE215C07CB2EC6CBF4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09484F500C461E262286075C /* Project object */;
+}
